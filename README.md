@@ -25,9 +25,9 @@ Beware, this will clobber your existing `~/.vimrc`!
 
 This module relies on a couple of modules from http://forge.puppetlabs.com. Which should be pulled in as dependencies by the Puppet Module Tool. If they are not, you can install them yourself.
 
-* For PE:
+* For PE (< 2015.2):
   - `puppet module install puppetlabs/pe_gem`
-* For any Puppet install including PE:
+* For any Puppet install including PE (< 4.0):
   - `puppet module install puppetlabs/vcsrepo`
   - `puppet module install puppetlabs/stdlib`
 

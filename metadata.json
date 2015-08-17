@@ -66,12 +66,12 @@
   "requirements": [],
   "name": "jpadams-puppet_vim_env",
   "version": "1.0.0",
-  "source": "git://github.com/jpadams/puppet_vim_env",
+  "source": "git@github.com:puppetlabs/tse-module-puppet_vim_env.git",
   "author": "Jeremy Adams",
   "license": "Apache-2.0",
   "summary": "Puppet Vim Environment setup for *NIX systems: syntax, linting, snippets",
-  "project_page": "https://github.com/jpadams/puppet_vim_env",
-  "issues_url": "https://github.com/jpadams/puppet_vim_env/issues",
+  "project_page": "https://github.com/puppetlabs/tse-module-puppet_vim_env.git",
+  "issues_url": "https://github.com/puppetlabs/tse-module-puppet_vim_env/issues",
   "dependencies": [
     { "name": "puppetlabs/vcsrepo", "version_requirement": ">= 1.0.0" },
     { "name": "puppetlabs/stdlib", "version_requirement": ">= 2.2.0" }
